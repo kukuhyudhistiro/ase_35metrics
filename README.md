@@ -415,20 +415,7 @@ ase_35metrics/
 │   ├── model_comparison.csv                    # Performance metrics
 │   ├── feature_importance.csv                  # Feature rankings
 │   ├── cv_scores.csv                           # Cross-validation results
-│   ├── JURNAL_IMPROVED_Software_Defect_Prediction.docx
-│   ├── Software_Defect_Prediction_Presentation.pptx
-│   └── documentation/
-│       ├── FINAL_PROJECT_REPORT.md
-│       ├── SUMMARY_ANALISIS_DAN_PERBAIKAN.md
-│       └── PRESENTATION_GUIDE.md
-│
-├── notebooks/
-│   └── exploratory_analysis.ipynb              # Jupyter notebook
-│
-└── docs/
-    ├── methodology.md                          # Detailed methodology
-    ├── results.md                              # Complete results
-    └── api_reference.md                        # Code documentation
+
 ```
 
 ---
