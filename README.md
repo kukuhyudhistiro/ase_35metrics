@@ -404,12 +404,6 @@ ase_35metrics/
 │
 ├── data/
 │   └── datasetjurnal_lengkap_500.csv           # Main dataset (500 samples)
-│
-├── src/
-│   ├── sdp_jurnal_improved.py                  # Main analysis script
-│   ├── create_presentation.py                  # PowerPoint generator
-│   └── create_improved_journal.py              # DOCX generator
-│
 ├── outputs/
 │   ├── sdp_comprehensive_analysis.png          # Visualization dashboard
 │   ├── model_comparison.csv                    # Performance metrics
