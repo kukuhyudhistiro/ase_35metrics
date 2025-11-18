@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data (large files)
+*.csv
+!datasetjurnal_lengkap_500.csv
+*.xlsx
+*.xls
+
+# Outputs (generated)
+outputs/*.png
+outputs/*.pdf
+!outputs/sdp_comprehensive_analysis.png
+
+# Models
+*.pkl
+*.joblib
+*.h5
+
+# Logs
+*.log
+
+# Temporary
+tmp/
+temp/
+.cache/
