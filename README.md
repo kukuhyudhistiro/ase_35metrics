@@ -145,7 +145,7 @@ Confusion Matrix:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                   1. DATA PREPROCESSING                      │
+│                   1. DATA PREPROCESSING                     │
 ├─────────────────────────────────────────────────────────────┤
 │  • Load dataset (500 samples, 35 metrics)                   │
 │  • Missing value imputation (median)                        │
@@ -153,16 +153,16 @@ Confusion Matrix:
 └─────────────────────────────────────────────────────────────┘
                             ↓
 ┌─────────────────────────────────────────────────────────────┐
-│                   2. SMOTE APPLICATION                       │
+│                   2. SMOTE APPLICATION                      │
 ├─────────────────────────────────────────────────────────────┤
-│  • Before: 263 non-defect, 87 defect (3.02:1)              │
+│  • Before: 263 non-defect, 87 defect (3.02:1)               │
 │  • K-NN interpolation (k=5)                                 │
-│  • After: 263 non-defect, 263 defect (1:1)                 │
+│  • After: 263 non-defect, 263 defect (1:1)                  │
 │  • Synthetic samples: 176                                   │
 └─────────────────────────────────────────────────────────────┘
                             ↓
 ┌─────────────────────────────────────────────────────────────┐
-│                   3. FEATURE SCALING                         │
+│                   3. FEATURE SCALING                        │
 ├─────────────────────────────────────────────────────────────┤
 │  • StandardScaler normalization                             │
 │  • Zero mean (μ = 0.000)                                    │
@@ -170,7 +170,7 @@ Confusion Matrix:
 └─────────────────────────────────────────────────────────────┘
                             ↓
 ┌─────────────────────────────────────────────────────────────┐
-│                   4. MODEL TRAINING                          │
+│                   4. MODEL TRAINING                         │
 ├─────────────────────────────────────────────────────────────┤
 │  • Random Forest Classifier                                 │
 │  • n_estimators: 100                                        │
@@ -179,10 +179,10 @@ Confusion Matrix:
 └─────────────────────────────────────────────────────────────┘
                             ↓
 ┌─────────────────────────────────────────────────────────────┐
-│                   5. EVALUATION                              │
+│                   5. EVALUATION                             │
 ├─────────────────────────────────────────────────────────────┤
 │  • 5-fold stratified cross-validation                       │
-│  • Multiple metrics (Acc, Prec, Rec, F1, AUC)              │
+│  • Multiple metrics (Acc, Prec, Rec, F1, AUC)               │
 │  • SHAP analysis for interpretability                       │
 │  • Confusion matrix & ROC/PR curves                         │
 └─────────────────────────────────────────────────────────────┘
