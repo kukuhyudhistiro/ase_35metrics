@@ -259,7 +259,7 @@ shap_values = explainer.shap_values(shap_sample)
 
 ---
 
-## 📚 Next Steps
+## Next Steps
 
 After completing the quick start:
 
