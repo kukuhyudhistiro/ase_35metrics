@@ -524,22 +524,22 @@ print("="*80)
 
 print(f"""
 ╔═══════════════════════════════════════════════════════════════╗
-║           SOFTWARE DEFECT PREDICTION - FINAL SUMMARY         ║
+║           SOFTWARE DEFECT PREDICTION - FINAL SUMMARY          ║
 ╠═══════════════════════════════════════════════════════════════╣
-║ Dataset: {df.shape[0]} samples, {df.shape[1]-1} features                            ║
-║ Class Distribution: {class_dist[0]} non-defective, {class_dist[1]} defective              ║
-║                                                               ║
-║ BEST MODEL: Random Forest + SMOTE                            ║
-║   • Accuracy:  {results['Random Forest + SMOTE']['Accuracy']:.4f}                                    ║
-║   • Precision: {results['Random Forest + SMOTE']['Precision']:.4f}                                    ║
-║   • Recall:    {results['Random Forest + SMOTE']['Recall']:.4f}                                    ║
-║   • F1-Score:  {results['Random Forest + SMOTE']['F1']:.4f}                                    ║
-║   • AUC-ROC:   {results['Random Forest + SMOTE']['AUC']:.4f}                                    ║
-║                                                               ║
-║ Top 3 Predictive Features:                                   ║
-║   1. {feature_importances.index[0]:6s} ({feature_importances.iloc[0]:.4f})                              ║
-║   2. {feature_importances.index[1]:6s} ({feature_importances.iloc[1]:.4f})                              ║
-║   3. {feature_importances.index[2]:6s} ({feature_importances.iloc[2]:.4f})                              ║
+║ Dataset: {df.shape[0]} samples, {df.shape[1]-1} features                            
+║ Class Distribution: {class_dist[0]} non-defective, {class_dist[1]} defective              
+║                                                               
+║ BEST MODEL: Random Forest + SMOTE                            
+║   • Accuracy:  {results['Random Forest + SMOTE']['Accuracy']:.4f}
+║   • Precision: {results['Random Forest + SMOTE']['Precision']:.4f}
+║   • Recall:    {results['Random Forest + SMOTE']['Recall']:.4f}
+║   • F1-Score:  {results['Random Forest + SMOTE']['F1']:.4f}
+║   • AUC-ROC:   {results['Random Forest + SMOTE']['AUC']:.4f}
+║                                                               
+║ Top 3 Predictive Features:
+║   1. {feature_importances.index[0]:6s} ({feature_importances.iloc[0]:.4f})
+║   2. {feature_importances.index[1]:6s} ({feature_importances.iloc[1]:.4f})
+║   3. {feature_importances.index[2]:6s} ({feature_importances.iloc[2]:.4f})
 ╚═══════════════════════════════════════════════════════════════╝
 """)
 
