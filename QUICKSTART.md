@@ -265,8 +265,6 @@ After completing the quick start:
 
 1. **Read the Full Documentation**
    - [README.md](README.md) - Complete project overview
-   - [Methodology](docs/methodology.md) - Detailed methods
-   - [Results](docs/results.md) - Full result analysis
 
 2. **Explore Jupyter Notebook**
    ```bash
