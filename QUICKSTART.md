@@ -1,8 +1,8 @@
-# 🚀 Quick Start Guide
+# Quick Start Guide
 
 Get started with Software Defect Prediction in 5 minutes!
 
-## ⚡ Super Quick Start
+## Super Quick Start
 
 ```bash
 # 1. Clone repository
@@ -22,11 +22,11 @@ python src/sdp_jurnal_improved.py
 ```
 
 **Expected Runtime**: 2-3 minutes  
-**Expected Output**: Perfect classification (100% all metrics) ✅
+**Expected Output**: Perfect classification (100% all metrics) 
 
 ---
 
-## 📋 Step-by-Step Guide
+## Step-by-Step Guide
 
 ### Step 1: Setup Environment
 
@@ -56,7 +56,7 @@ from imblearn.over_sampling import SMOTE
 import matplotlib.pyplot as plt
 import seaborn as sns
 import shap
-print('✅ All dependencies installed successfully!')
+print('All dependencies installed successfully!')
 "
 ```
 
@@ -118,7 +118,7 @@ cat outputs/cv_scores.csv
 
 ---
 
-## 🔍 Understanding the Results
+## Understanding the Results
 
 ### Confusion Matrix
 ```
@@ -131,23 +131,23 @@ Actual  0  [113   0]  ← Perfect! No false positives
 ### Feature Importance
 ```
 Top 5 Features:
-1. scc (0.5596) - 56% of prediction power! ⭐
+1. scc (0.5596) - 56% of prediction power! 
 2. dcl (0.0492) - 5%
 3. prm (0.0257) - 3%
 4. ccr (0.0252) - 3%
 5. l   (0.0213) - 2%
 ```
 
-### What This Means
+### Definition
 
-✅ **Perfect Classification**: Model catches ALL defects (37/37)  
-✅ **No False Alarms**: Zero unnecessary investigations  
-✅ **Sum Cyclomatic Complexity** is the key predictor  
-✅ **Actionable**: Modules with scc > 45 need refactoring  
+**Perfect Classification**: Model catches ALL defects (37/37)  
+**No False Alarms**: Zero unnecessary investigations  
+**Sum Cyclomatic Complexity** is the key predictor  
+**Actionable**: Modules with scc > 45 need refactoring  
 
 ---
 
-## 🎯 Common Use Cases
+## Common Use Cases
 
 ### Use Case 1: Quick Defect Check
 
@@ -174,9 +174,9 @@ X_scaled = scaler.transform(X)
 prediction = model.predict(X_scaled)
 
 if prediction[0] == 1:
-    print("⚠️ DEFECT PREDICTED - Prioritize for review!")
+    print("DEFECT PREDICTED - Prioritize for review!")
 else:
-    print("✅ No defect predicted")
+    print("No defect predicted")
 ```
 
 ### Use Case 2: Batch Analysis
@@ -213,15 +213,15 @@ for metric, threshold in thresholds.items():
     value = my_metrics[metric]
     if metric == 'ccr':
         if value < threshold[0] or value > threshold[1]:
-            print(f"⚠️ {metric} = {value} (outside optimal range)")
+            print(f" {metric} = {value} (outside optimal range)")
     else:
         if value > threshold:
-            print(f"⚠️ {metric} = {value} (exceeds threshold {threshold})")
+            print(f" {metric} = {value} (exceeds threshold {threshold})")
 ```
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Issue: "Module not found"
 
@@ -332,7 +332,7 @@ results.to_excel('outputs/defect_report.xlsx', index=False)
 
 ---
 
-## 🎓 Learning Resources
+## Learning Resources
 
 - **SMOTE**: [Original Paper](https://arxiv.org/abs/1106.1813)
 - **Random Forest**: [Breiman 2001](https://link.springer.com/article/10.1023/A:1010933404324)
@@ -341,14 +341,9 @@ results.to_excel('outputs/defect_report.xlsx', index=False)
 
 ---
 
-## 📞 Get Help
+## Get Help
 
-- 💬 [GitHub Discussions](https://github.com/kukuhyudhistiro/ase_35metrics/discussions)
-- 🐛 [Report Issues](https://github.com/kukuhyudhistiro/ase_35metrics/issues)
-- 📧 Email: kukuh.yudhistiro@example.com
+- [GitHub Discussions](https://github.com/kukuhyudhistiro/ase_35metrics/discussions)
+- [Report Issues](https://github.com/kukuhyudhistiro/ase_35metrics/issues)
 
 ---
-
-**Ready to predict defects like a pro?** 🚀
-
-[← Back to README](README.md) | [View Full Documentation →](docs/)
