@@ -221,7 +221,7 @@ We compare against three baselines:
 | Recall | 0.9962 | 0.0075 | 0.9887 | 1.0000 |
 | F1-Score | 0.9981 | 0.0038 | 0.9943 | 1.0000 |
 
-** Interpretation**: Extremely low variance (std < 0.01) indicates robust generalization across all folds.
+**Interpretation**: Extremely low variance (std < 0.01) indicates robust generalization across all folds.
 
 ### Performance Gains
 
@@ -267,7 +267,7 @@ We compare against three baselines:
 | 14 | iv | 0.0126 | Structure | Instance Variables |
 | 15 | bl | 0.0126 | Size | Blank Lines |
 
-**  Key Finding**: Sum Cyclomatic Complexity (scc) dominates with **56% importance**, far exceeding all other features combined.
+**Key Finding**: Sum Cyclomatic Complexity (scc) dominates with **56% importance**, far exceeding all other features combined.
 
 ### Ablation Study Results
 
