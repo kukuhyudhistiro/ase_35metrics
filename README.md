@@ -566,25 +566,20 @@ If you use this work in your research, please cite:
   institution={Fakultas Ilmu Komputer, Universitas Dian Nuswantoro}
 }
 ```
-
-**Related Publications:**
-- IEEE Study 2022: [DOI Link]
-- SN Computer Science 2024: [DOI: 10.1007/s42979-024-02764-x]
-
 ---
 
-## 👥 Authors
+## Authors
 
 **Kukuh Yudhistiro**
-- 🎓 Fakultas Ilmu Komputer, Universitas Dian Nuswantoro
-- 🔗 GitHub: [@kukuhyudhistiro](https://github.com/kukuhyudhistiro)
+- Fakultas Ilmu Komputer, Universitas Dian Nuswantoro
+- GitHub: [@kukuhyudhistiro](https://github.com/kukuhyudhistiro)
 
 **Aris Marjuni**
-- 🎓 Fakultas Ilmu Komputer, Universitas Dian Nuswantoro
+- Fakultas Ilmu Komputer, Universitas Dian Nuswantoro
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
