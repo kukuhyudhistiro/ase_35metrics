@@ -276,12 +276,7 @@ After completing the quick start:
    - Adjust hyperparameters
    - Add new metrics
 
-4. **Integrate into CI/CD**
-   - See [Integration Guide](docs/integration.md)
-   - Use provided quality gates
-   - Set up automated checks
-
-5. **Contribute**
+4. **Contribute**
    - Report issues
    - Suggest improvements
    - Share your results
