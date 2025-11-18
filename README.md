@@ -5,7 +5,7 @@
 [![Status](https://img.shields.io/badge/Status-Research-orange.svg)](https://github.com/kukuhyudhistiro/ase_35metrics)
 [![Accuracy](https://img.shields.io/badge/Accuracy-100%25-brightgreen.svg)](README.md)
 
-> **Leveraging 35 Source Code Metrics in SMOTE-Augmented Random Forest for Superior Software Defect Prediction**
+> **Integrating 35 Source Code Metrics in SMOTE-Augmented Random Forest for Superior Software Defect Prediction**
 
 A comprehensive machine learning approach for predicting software defects using 35 source code metrics with SMOTE-augmented Random Forest, achieving **perfect classification performance** (100% accuracy, precision, recall, and F1-score).
 
