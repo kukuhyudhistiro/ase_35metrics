@@ -437,9 +437,6 @@ ase_35metrics/
 ##  Visualizations
 
 ### Comprehensive Dashboard
-
-![Comprehensive Analysis Dashboard](outputs/sdp_comprehensive_analysis.png)
-
 **24 Subplots Including:**
 - Confusion Matrix (perfect diagonal)
 - ROC Curves (AUC = 1.00)
