@@ -1,6 +1,6 @@
 # Contributing to Software Defect Prediction Project
 
-Thank you for your interest in contributing to our research! 🎉
+Thank you for your interest in contributing to our research!
 
 ## How to Contribute
 
@@ -54,12 +54,12 @@ black --check src/
 
 We welcome contributions in:
 
-- 🐛 **Bug fixes**
-- ✨ **New features** (e.g., additional ML algorithms)
-- 📊 **Visualizations** improvements
-- 📝 **Documentation** enhancements
-- 🧪 **Test coverage** expansion
-- 🔧 **Performance** optimizations
+- **Bug fixes**
+- **New features** (e.g., additional ML algorithms)
+- **Visualizations** improvements
+- **Documentation** enhancements
+- **Test coverage** expansion
+- **Performance** optimizations
 
 ### Research Contributions
 
@@ -71,8 +71,6 @@ If you're conducting related research:
 - Collaborate on cross-validation studies
 
 ## Questions?
-
-- 📧 Email: kukuh.yudhistiro@example.com
 - 💬 GitHub Discussions: [Link](https://github.com/kukuhyudhistiro/ase_35metrics/discussions)
 
-Thank you for helping improve software defect prediction! 🙏
+Thank you for helping improve software defect prediction! 
