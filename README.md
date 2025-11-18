@@ -1,4 +1,4 @@
-# 🎯 Software Defect Prediction using SMOTE-Augmented Random Forest
+# Software Defect Prediction using SMOTE-Augmented Random Forest
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -11,7 +11,7 @@ A comprehensive machine learning approach for predicting software defects using 
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Research Framework](#research-framework)
@@ -30,21 +30,21 @@ A comprehensive machine learning approach for predicting software defects using 
 
 ---
 
-## 🎯 Overview
+## Overview
 
 Software defects lead to significant financial losses and safety hazards. Traditional Software Defect Prediction (SDP) models often struggle with **class imbalance**, where defective modules constitute only 20-30% of datasets, resulting in poor defect detection rates.
 
 This research addresses these challenges through:
 
-✅ **35 Comprehensive Metrics** - Extended from typical 21-22 metrics  
-✅ **SMOTE Balancing** - Addresses 75:25 imbalance  
-✅ **Random Forest Ensemble** - 100 estimators with feature randomization  
-✅ **Perfect Performance** - 100% accuracy, precision, recall, F1, and AUC  
-✅ **Interpretable Results** - SHAP analysis and feature importance  
+**35 Comprehensive Metrics** - Extended from typical 21-22 metrics  
+**SMOTE Balancing** - Addresses 75:25 imbalance  
+**Random Forest Ensemble** - 100 estimators with feature randomization  
+**Perfect Performance** - 100% accuracy, precision, recall, F1, and AUC  
+**Interpretable Results** - SHAP analysis and feature importance  
 
 ---
 
-## 🔬 Research Framework
+## Research Framework
 
 ### Problem Statement
 
@@ -72,9 +72,9 @@ This research addresses these challenges through:
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🎯 **Perfect Classification**
+### **Perfect Classification**
 ```
 Test Set Performance (n=150):
 ├── Accuracy:  100%
@@ -90,14 +90,14 @@ Confusion Matrix:
 └── False Negatives: 0
 ```
 
-### 🔍 **Comprehensive Metrics**
+### **Comprehensive Metrics**
 - **Complexity**: mcc, scc, acc, mn
 - **Size**: cl, dcl, ecl, l
 - **Halstead**: n, n1, n2
 - **Structure**: cs, m, cv, cm
 - **Documentation**: cml, ccr
 
-### 🎨 **Rich Visualizations**
+### **Rich Visualizations**
 - 24-subplot comprehensive dashboard
 - ROC & Precision-Recall curves
 - SHAP explainability plots
@@ -106,7 +106,7 @@ Confusion Matrix:
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 ### Overview
 - **Total Samples**: 500 software modules
@@ -139,7 +139,7 @@ Confusion Matrix:
 
 ---
 
-## 🔧 Methodology
+## Methodology
 
 ### Pipeline Overview
 
@@ -200,7 +200,7 @@ We compare against three baselines:
 
 ---
 
-## 📈 Results
+## Results
 
 ### Model Performance
 
@@ -208,7 +208,7 @@ We compare against three baselines:
 |-------|----------|-----------|--------|----------|---------|
 | **Naive Bayes** | 0.9467 | 0.8718 | 0.9189 | 0.8947 | 0.9864 |
 | **Logistic Regression** | 0.9467 | 0.8537 | 0.9459 | 0.8974 | 0.9900 |
-| **RF + SMOTE** ⭐ | **1.0000** | **1.0000** | **1.0000** | **1.0000** | **1.0000** |
+| **RF + SMOTE**   | **1.0000** | **1.0000** | **1.0000** | **1.0000** | **1.0000** |
 
 ### Cross-Validation Results
 
@@ -221,7 +221,7 @@ We compare against three baselines:
 | Recall | 0.9962 | 0.0075 | 0.9887 | 1.0000 |
 | F1-Score | 0.9981 | 0.0038 | 0.9943 | 1.0000 |
 
-**✅ Interpretation**: Extremely low variance (std < 0.01) indicates robust generalization across all folds.
+** Interpretation**: Extremely low variance (std < 0.01) indicates robust generalization across all folds.
 
 ### Performance Gains
 
@@ -267,7 +267,7 @@ We compare against three baselines:
 | 14 | iv | 0.0126 | Structure | Instance Variables |
 | 15 | bl | 0.0126 | Size | Blank Lines |
 
-**🎯 Key Finding**: Sum Cyclomatic Complexity (scc) dominates with **56% importance**, far exceeding all other features combined.
+**  Key Finding**: Sum Cyclomatic Complexity (scc) dominates with **56% importance**, far exceeding all other features combined.
 
 ### Ablation Study Results
 
@@ -287,7 +287,7 @@ Impact:       Essential for SMOTE distance calculations
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -321,7 +321,7 @@ shap>=0.40.0
 
 ---
 
-## 💻 Usage
+##  Usage
 
 ### Quick Start
 
@@ -394,7 +394,7 @@ shap.summary_plot(shap_values[1], X_test_scaled, feature_names)
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ase_35metrics/
@@ -433,7 +433,7 @@ ase_35metrics/
 
 ---
 
-## 📊 Performance Comparison
+##  Performance Comparison
 
 ### Comparison with Published Baselines
 
@@ -445,15 +445,15 @@ ase_35metrics/
 
 ### Key Improvements
 
-✅ **Extended Metrics**: 35 vs typical 21-22  
-✅ **Perfect Recall**: 100% vs 60-90% in baselines  
-✅ **Zero False Negatives**: All defects caught  
-✅ **Robust Validation**: CV std < 0.01  
-✅ **Interpretable**: SHAP + feature importance  
+ **Extended Metrics**: 35 vs typical 21-22  
+ **Perfect Recall**: 100% vs 60-90% in baselines  
+ **Zero False Negatives**: All defects caught  
+ **Robust Validation**: CV std < 0.01  
+ **Interpretable**: SHAP + feature importance  
 
 ---
 
-## 📸 Visualizations
+##  Visualizations
 
 ### Comprehensive Dashboard
 
@@ -503,11 +503,11 @@ scc dominates!
 
 ---
 
-## 🎯 Actionable Insights
+## Actionable Insights
 
 ### For Developers
 
-**🚨 HIGH PRIORITY Refactoring Triggers:**
+**HIGH PRIORITY Refactoring Triggers:**
 ```python
 if scc > 45:
     # CRITICAL: Immediate refactoring required
@@ -551,19 +551,19 @@ quality_gates:
 ### Healthy Code Characteristics
 
 ```
-✅ HEALTHY CODE:
+HEALTHY CODE:
    scc:  0-30   (low overall complexity)
    dcl:  0-100  (simple declarations)
    prm:  0-5    (minimal private methods)
    ccr:  0.35-0.45 (balanced documentation)
 
-⚠️ AT-RISK CODE:
+AT-RISK CODE:
    scc:  30-45  (moderate complexity - monitor)
    dcl:  100-150 (complex declarations)
    prm:  5-6    (borderline over-engineering)
    ccr:  0.15-0.35 or 0.45-0.7 (suboptimal)
 
-🚨 HIGH-RISK CODE:
+HIGH-RISK CODE:
    scc:  >45    (very high complexity - REFACTOR!)
    dcl:  >150   (excessive declarations)
    prm:  >6     (over-engineered)
@@ -572,7 +572,7 @@ quality_gates:
 
 ---
 
-## 📚 Citation
+## Citation
 
 If you use this work in your research, please cite:
 
@@ -596,12 +596,10 @@ If you use this work in your research, please cite:
 
 **Kukuh Yudhistiro**
 - 🎓 Fakultas Ilmu Komputer, Universitas Dian Nuswantoro
-- 📧 Email: kukuh.yudhistiro@example.com
 - 🔗 GitHub: [@kukuhyudhistiro](https://github.com/kukuhyudhistiro)
 
 **Aris Marjuni**
 - 🎓 Fakultas Ilmu Komputer, Universitas Dian Nuswantoro
-- 📧 Email: aris.marjuni@example.com
 
 ---
 
@@ -627,7 +625,7 @@ copies or substantial portions of the Software.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **NASA MDP**: For inspiring baseline comparisons
 - **scikit-learn**: For excellent ML library
@@ -636,26 +634,25 @@ copies or substantial portions of the Software.
 
 ---
 
-## 📞 Contact & Support
+## Contact & Support
 
 - **Issues**: [GitHub Issues](https://github.com/kukuhyudhistiro/ase_35metrics/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/kukuhyudhistiro/ase_35metrics/discussions)
-- **Email**: kukuh.yudhistiro@example.com
 
 ---
 
-## 🔄 Updates & Roadmap
+## Updates & Roadmap
 
 ### Current Version: v1.0.0 (November 2025)
 
-**✅ Completed:**
+**Completed:**
 - [x] Perfect test performance (100% metrics)
 - [x] Comprehensive 35-metric analysis
 - [x] SMOTE integration
 - [x] SHAP interpretability
 - [x] Publication-ready visualizations
 
-**🔜 Planned:**
+**Planned:**
 - [ ] Cross-dataset validation (NASA CM1, KC1, JM1)
 - [ ] Deep learning integration (CNN, RNN)
 - [ ] Real-time CI/CD plugin
@@ -664,15 +661,15 @@ copies or substantial portions of the Software.
 
 ---
 
-## ⭐ Star History
+## Star History
 
-If you find this project useful, please consider giving it a star! ⭐
+If you find this project useful, please consider giving it a star! 
 
 [![Star History Chart](https://api.star-history.com/svg?repos=kukuhyudhistiro/ase_35metrics&type=Date)](https://star-history.com/#kukuhyudhistiro/ase_35metrics&Date)
 
 ---
 
-## 📊 Statistics
+## Statistics
 
 ![GitHub stars](https://img.shields.io/github/stars/kukuhyudhistiro/ase_35metrics?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/kukuhyudhistiro/ase_35metrics?style=social)
@@ -682,7 +679,7 @@ If you find this project useful, please consider giving it a star! ⭐
 
 <div align="center">
 
-**Made with ❤️ by the Udinus Software Engineering Research Team**
+**Made with ❤️ by Kukuh**
 
 [⬆ Back to Top](#-software-defect-prediction-using-smote-augmented-random-forest)
 
